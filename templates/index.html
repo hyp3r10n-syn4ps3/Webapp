@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/styles.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>LazyBot-v1.0</title>
+    </head>
+    <body>
+<main class="l-main">
+    <div class="bar">
+     <div class="logo_content">
+       <div class="logo">
+         <div class="logo_name">LazyBot</div>
+       </div>
+       <i class='bx bx-menu' id="btn"></i>
+     </div>
+     <ul class="nav_list">
+      <li>
+        <a href="/">
+         <i class='bx bx-home'></i>
+         <span class="links_name">Home</span>
+        </a>
+        <span class="tooltip">Home</span>
+      </li>
+      <li>
+        <a href="">
+         <i class='bx bx-info-circle'></i>
+         <span class="links_name">About</span>
+        </a>
+        <span class="tooltip">About</span>
+      </li>
+     </ul>
+       </div>
+     </div>
+   </div>
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">LazyBot<span class="home__title-color"> v1.0</span><br></h1>
+        <div class="card">
+            <div class="card-body"><br>
+                <form action="/data" method="post">
+                    <input type="checkbox" id="teddy/bear" name="teddy/bear" value="teddy/bear">
+                    <label for="teddy/bear"> Teddy Bear</label><br><br>
+
+                    <input type="checkbox" id="bottle" name="bottle" value="cup">
+                    <label for="item2"> Bottle</label><br><br>
+
+                    <input type="checkbox" id="cup" name="cup" value="cup">
+                    <label for="item3"> Cup</label><br><br>
+
+                    <input type="checkbox" id="mouse" name="mouse" value="mouse">
+                    <label for="item4"> Mouse</label><br><br><br><br>
+
+                    <input class="button" type="submit" value="Submit"><br><br>
+                </form>
+            </div>
+        </div>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="static/main.js"></script>
+    </body>
+</html>
